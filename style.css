@@ -1,7 +1,7 @@
 .container {
   width: 500px;
   height: 500px;
-  border: 2px solid black;
+  border: 2px solid rgba(255, 255, 255, 0.495);
   background-color: rgba(255, 255, 255, 0.1);
   background-image: url(./);
   backdrop-filter: blur(5px);
@@ -32,7 +32,7 @@ body {
 #inc {
   height: 50px;
   width: 100px;
-  border: 2px solid black;
+  border: 2px solid rgba(255, 255, 255, 0.427);
   margin-left: 100px;
   border-radius: 10px;
   background-color: rgba(5, 164, 5, 0.449);
@@ -42,7 +42,7 @@ body {
 #dec {
   height: 50px;
   width: 100px;
-  border: 2px solid black;
+  border: 2px solid rgba(252, 252, 252, 0.562);
   margin-left: 100px;
   border-radius: 10px;
   background-color: rgba(162, 26, 8, 0.692);
@@ -75,10 +75,12 @@ h1 {
 #rec {
   height: 50px;
   width: 100px;
-  border: 2px solid black;
+  border: 2px solid rgba(255, 255, 255, 0.458);
   margin-left: 100px;
   border-radius: 10px;
   background-color: rgba(56, 56, 102, 0.579);
   color: white;
   font-size: larger;
+  padding-left: 10px;
+  padding-right: 10px;
 }
